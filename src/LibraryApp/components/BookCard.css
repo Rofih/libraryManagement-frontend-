@@ -1,0 +1,90 @@
+
+.book-card {
+    background-color: var(--light-text);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.book-title {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+.book-author {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    margin-bottom: 8px;
+}
+
+.book-description {
+    font-size: 1rem;
+    color: var(--dark-text);
+    margin-bottom: 10px;
+}
+
+.book-genre {
+    font-size: 0.85rem;
+    color: #777;
+    font-style: italic;
+}
+
+.book-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.book-status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.book-status.available {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.book-status.borrowed {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.book-actions a,
+.book-actions button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.book-actions a {
+    background-color: var(--primary-color);
+    color: var(--light-text);
+}
+
+.book-actions a:hover {
+    background-color: #0056b3;
+}
+
+.book-actions .view-button,
+.book-actions .details-button {
+    background-color: var(--secondary-color);
+    color: var(--light-text);
+}
+
+.book-actions .view-button:hover,
+.book-actions .details-button:hover {
+    background-color: #545b62;
+}

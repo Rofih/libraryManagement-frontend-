@@ -1,0 +1,37 @@
+
+.admin-dashboard {
+    padding: 20px;
+}
+
+.admin-dashboard h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.admin-dashboard p {
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+
+.admin-dashboard ul {
+    list-style: none;
+    padding: 0;
+}
+
+.admin-dashboard ul li {
+    margin-bottom: 10px;
+}
+
+.admin-dashboard ul li a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: var(--light-bg);
+    color: var(--primary-color);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.admin-dashboard ul li a:hover {
+    background-color: #e9ecef;
+}
